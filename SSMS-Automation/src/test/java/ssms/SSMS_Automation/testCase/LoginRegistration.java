@@ -54,10 +54,10 @@ public class LoginRegistration extends Base {
 		register.validateRegisterErrorMsg();
 	}
 	
-	@Test(priority=0, description="Verify Login with Valid Username and Valid Password")
-	public void Tc_Login_011() {
-		login.logIn("PAWAN", "punshegde");
-		login.validateHomePage();
-		//homePage.logOut();
-	}
+//	@Test(priority=0, description="Verify Login with Valid Username and Valid Password")
+//	public void Tc_Login_011() {
+//		login.logIn("PAWAN", "punshegde");
+//		login.validateHomePage();
+//		//homePage.logOut();
+//	}
 }

@@ -10,7 +10,9 @@ public class HomePage extends Base{
 	public final String account_xpath="//*[contains(text(),' Hello ')]";
 	public final String signOut_xpath="//*[contains(text(),'Sign Out')]";
 	
-	
+	/**
+	 * @author Uma Sasmal
+	 */
 	public void logOut() {
 		try {
 			driver.findElement(By.xpath(account_xpath)).click();

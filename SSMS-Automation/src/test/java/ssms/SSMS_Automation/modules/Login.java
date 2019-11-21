@@ -18,7 +18,13 @@ public class Login extends Base {
 	public final String homePage_xpath="//*[contains(@class,'sidenav-content')]";
 	public final String loginErrorMsg_xpath="//*[text()='Login Failed, Reason : Bad credentials']";
 	public final String forgotPassword_class="forget-password";
+	public final String registerFormLink_xpath = "//div[contains(text(),'Register Form')]";
 	
+	/**
+	 * @author Uma Sasmal
+	 * @param username
+	 * @param password
+	 */
 	public void logIn(String username,String password) {
 		try {         
 			driver.findElement(By.xpath(loginLink_xpath)).click();
@@ -32,6 +38,9 @@ public class Login extends Base {
 		}
 	}
 	
+	/**
+	 * @author Uma Sasmal
+	 */
 	public void validateHomePage() {
 		try {         
 			Assert.assertTrue(driver.findElement(By.xpath(homePage_xpath)).isDisplayed(),"Home page not displayed");
@@ -41,6 +50,9 @@ public class Login extends Base {
 		}
 	}
 	
+	/**
+	 * @author Uma Sasmal
+	 */
 	public void validateLoginErrorMsg() {
 		try {
 			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(loginErrorMsg_xpath)));
@@ -65,9 +77,20 @@ public class Login extends Base {
 	}
 	
 	
-//	@Test(priority=0, description="Verify Login with Valid Username and Valid Password")
-//	public void Tc_Login_001() {
-//		logIn("pawan", "punshegde");
-//		validateHomePage();
-//	}
+	/**
+	 * @author Uma Sasmal
+	 */
+	public void registerFormLinkClick() {
+//		Thread.sleep(3000);
+		try{
+			driver.findElement(By.xpath(loginLink_xpath)).click();
+			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(registerFormLink_xpath)));
+			Assert.assertTrue(driver.findElement(By.xpath(registerFormLink_xpath)).isDisplayed(),"Register Form Link is displaying properly");
+			driver.findElement(By.xpath(registerFormLink_xpath));
+		}catch(Exception e){
+			System.out.println(e);
+			Assert.fail("Fail due to exception "+e.getMessage());
+		}
+	}
+
 }
