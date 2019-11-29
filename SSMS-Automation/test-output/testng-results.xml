@@ -1,42 +1,233 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="1" passed="0">
+<testng-results skipped="0" failed="7" total="22" passed="15">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12665" started-at="2019-11-20T04:11:24Z" finished-at="2019-11-20T04:11:36Z">
+  <suite name="Default suite" duration-ms="363341" started-at="2019-11-29T14:48:18Z" finished-at="2019-11-29T14:54:21Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12665" started-at="2019-11-20T04:11:24Z" finished-at="2019-11-20T04:11:36Z">
+    <test name="Default test" duration-ms="363341" started-at="2019-11-29T14:48:18Z" finished-at="2019-11-29T14:54:21Z">
       <class name="ssms.SSMS_Automation.testCase.LoginRegistration">
-        <test-method status="PASS" signature="setup()[pri:0, instance:ssms.SSMS_Automation.testCase.LoginRegistration@66a3ffec]" name="setup" is-config="true" duration-ms="9579" started-at="2019-11-20T12:11:24Z" finished-at="2019-11-20T12:11:33Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:ssms.SSMS_Automation.testCase.LoginRegistration@91161c7]" name="setup" is-config="true" duration-ms="11631" started-at="2019-11-29T22:48:18Z" finished-at="2019-11-29T22:48:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="Tc_Login_011()[pri:0, instance:ssms.SSMS_Automation.testCase.LoginRegistration@66a3ffec]" name="Tc_Login_011" duration-ms="946" started-at="2019-11-20T12:11:33Z" description="Verify Login with Valid Username and Valid Password" finished-at="2019-11-20T12:11:34Z">
-          <exception class="java.lang.AssertionError">
+        <test-method status="PASS" signature="Tc_Login_001()[pri:0, instance:ssms.SSMS_Automation.testCase.LoginRegistration@91161c7]" name="Tc_Login_001" duration-ms="860" started-at="2019-11-29T22:48:30Z" description="Verify Login with Valid Username and Valid Password" finished-at="2019-11-29T22:48:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_Login_001 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ssms.SSMS_Automation.testCase.LoginRegistration@91161c7]" name="tearDown" is-config="true" duration-ms="1912" started-at="2019-11-29T22:48:30Z" finished-at="2019-11-29T22:48:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:ssms.SSMS_Automation.testCase.LoginRegistration@91161c7]" name="setup" is-config="true" duration-ms="7020" started-at="2019-11-29T22:49:08Z" finished-at="2019-11-29T22:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Tc_Login_002()[pri:1, instance:ssms.SSMS_Automation.testCase.LoginRegistration@91161c7]" name="Tc_Login_002" duration-ms="2049" started-at="2019-11-29T22:49:15Z" description="Verify Login with Valid Username and Invalid Password" finished-at="2019-11-29T22:49:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_Login_002 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ssms.SSMS_Automation.testCase.LoginRegistration@91161c7]" name="tearDown" is-config="true" duration-ms="1411" started-at="2019-11-29T22:49:17Z" finished-at="2019-11-29T22:49:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:ssms.SSMS_Automation.testCase.LoginRegistration@91161c7]" name="setup" is-config="true" duration-ms="9119" started-at="2019-11-29T22:49:49Z" finished-at="2019-11-29T22:49:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Tc_Login_003()[pri:2, instance:ssms.SSMS_Automation.testCase.LoginRegistration@91161c7]" name="Tc_Login_003" duration-ms="1839" started-at="2019-11-29T22:49:58Z" description="Verify Login with Invalid Username and Valid Password" finished-at="2019-11-29T22:50:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_Login_003 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ssms.SSMS_Automation.testCase.LoginRegistration@91161c7]" name="tearDown" is-config="true" duration-ms="1370" started-at="2019-11-29T22:50:00Z" finished-at="2019-11-29T22:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:ssms.SSMS_Automation.testCase.LoginRegistration@91161c7]" name="setup" is-config="true" duration-ms="7652" started-at="2019-11-29T22:50:35Z" finished-at="2019-11-29T22:50:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Tc_Login_004()[pri:3, instance:ssms.SSMS_Automation.testCase.LoginRegistration@91161c7]" name="Tc_Login_004" duration-ms="1774" started-at="2019-11-29T22:50:43Z" description="Verify Login with Invalid Username and invalid Password" finished-at="2019-11-29T22:50:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_Login_004 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ssms.SSMS_Automation.testCase.LoginRegistration@91161c7]" name="tearDown" is-config="true" duration-ms="1388" started-at="2019-11-29T22:50:45Z" finished-at="2019-11-29T22:50:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:ssms.SSMS_Automation.testCase.LoginRegistration@91161c7]" name="setup" is-config="true" duration-ms="8185" started-at="2019-11-29T22:51:23Z" finished-at="2019-11-29T22:51:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Tc_Login_005()[pri:4, instance:ssms.SSMS_Automation.testCase.LoginRegistration@91161c7]" name="Tc_Login_005" duration-ms="338" started-at="2019-11-29T22:51:31Z" description="Verify that the login screen contains elements such as Username, Password, Sign in button,Forgot password link" finished-at="2019-11-29T22:51:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_Login_005 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ssms.SSMS_Automation.testCase.LoginRegistration@91161c7]" name="tearDown" is-config="true" duration-ms="1211" started-at="2019-11-29T22:51:31Z" finished-at="2019-11-29T22:51:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:ssms.SSMS_Automation.testCase.LoginRegistration@91161c7]" name="setup" is-config="true" duration-ms="7739" started-at="2019-11-29T22:52:09Z" finished-at="2019-11-29T22:52:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Tc_Login_006()[pri:5, instance:ssms.SSMS_Automation.testCase.LoginRegistration@91161c7]" name="Tc_Login_006" duration-ms="693" started-at="2019-11-29T22:52:17Z" description="Verify that the Registration form contains Fullname, Email Id, Mobile number, Username,Password,Conform Password ,Register Button,Forgot Password Link" finished-at="2019-11-29T22:52:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_Login_006 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ssms.SSMS_Automation.testCase.LoginRegistration@91161c7]" name="tearDown" is-config="true" duration-ms="1350" started-at="2019-11-29T22:52:17Z" finished-at="2019-11-29T22:52:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:ssms.SSMS_Automation.testCase.LoginRegistration@91161c7]" name="setup" is-config="true" duration-ms="8214" started-at="2019-11-29T22:54:11Z" finished-at="2019-11-29T22:54:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Tc_Login_009()[pri:8, instance:ssms.SSMS_Automation.testCase.LoginRegistration@91161c7]" name="Tc_Login_009" duration-ms="1015" started-at="2019-11-29T22:54:19Z" description="Verify that system generates a validation message when clicking on submit button without filling all the mandatory fields." finished-at="2019-11-29T22:54:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_Login_009 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ssms.SSMS_Automation.testCase.LoginRegistration@91161c7]" name="tearDown" is-config="true" duration-ms="1342" started-at="2019-11-29T22:54:20Z" finished-at="2019-11-29T22:54:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ssms.SSMS_Automation.testCase.LoginRegistration -->
+      <class name="ssms.SSMS_Automation.testCase.ReceiveModule">
+        <test-method status="PASS" signature="setup()[pri:0, instance:ssms.SSMS_Automation.testCase.ReceiveModule@604ed9f0]" name="setup" is-config="true" duration-ms="7330" started-at="2019-11-29T22:48:32Z" finished-at="2019-11-29T22:48:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Tc_Receive_001()[pri:0, instance:ssms.SSMS_Automation.testCase.ReceiveModule@604ed9f0]" name="Tc_Receive_001" duration-ms="14289" started-at="2019-11-29T22:48:40Z" description="Verify that when ESSMS user login and click on Receive Module they can able to view the existing customer " finished-at="2019-11-29T22:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_Receive_001 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ssms.SSMS_Automation.testCase.ReceiveModule@604ed9f0]" name="tearDown" is-config="true" duration-ms="1498" started-at="2019-11-29T22:48:54Z" finished-at="2019-11-29T22:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:ssms.SSMS_Automation.testCase.ReceiveModule@604ed9f0]" name="setup" is-config="true" duration-ms="7900" started-at="2019-11-29T22:49:19Z" finished-at="2019-11-29T22:49:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Tc_Receive_002()[pri:1, instance:ssms.SSMS_Automation.testCase.ReceiveModule@604ed9f0]" name="Tc_Receive_002" duration-ms="8126" started-at="2019-11-29T22:49:27Z" description="Verify that ESSMS user can able to view the existing register customer details" finished-at="2019-11-29T22:49:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_Receive_002 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ssms.SSMS_Automation.testCase.ReceiveModule@604ed9f0]" name="tearDown" is-config="true" duration-ms="1405" started-at="2019-11-29T22:49:35Z" finished-at="2019-11-29T22:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:ssms.SSMS_Automation.testCase.ReceiveModule@604ed9f0]" name="setup" is-config="true" duration-ms="6859" started-at="2019-11-29T22:50:01Z" finished-at="2019-11-29T22:50:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Tc_Receive_003()[pri:2, instance:ssms.SSMS_Automation.testCase.ReceiveModule@604ed9f0]" name="Tc_Receive_003" duration-ms="13611" started-at="2019-11-29T22:50:08Z" description="Verify that ESSMS user can able to view the create Receive page" finished-at="2019-11-29T22:50:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_Receive_003 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ssms.SSMS_Automation.testCase.ReceiveModule@604ed9f0]" name="tearDown" is-config="true" duration-ms="1451" started-at="2019-11-29T22:50:22Z" finished-at="2019-11-29T22:50:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:ssms.SSMS_Automation.testCase.ReceiveModule@604ed9f0]" name="setup" is-config="true" duration-ms="7761" started-at="2019-11-29T22:50:46Z" finished-at="2019-11-29T22:50:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Tc_Receive_004()[pri:3, instance:ssms.SSMS_Automation.testCase.ReceiveModule@604ed9f0]" name="Tc_Receive_004" duration-ms="14868" started-at="2019-11-29T22:50:54Z" description="Verify that by entering all the mandatory fields" finished-at="2019-11-29T22:51:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_Receive_004 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ssms.SSMS_Automation.testCase.ReceiveModule@604ed9f0]" name="tearDown" is-config="true" duration-ms="1365" started-at="2019-11-29T22:51:09Z" finished-at="2019-11-29T22:51:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:ssms.SSMS_Automation.testCase.ReceiveModule@604ed9f0]" name="setup" is-config="true" duration-ms="8071" started-at="2019-11-29T22:51:33Z" finished-at="2019-11-29T22:51:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Tc_Receive_005()[pri:4, instance:ssms.SSMS_Automation.testCase.ReceiveModule@604ed9f0]" name="Tc_Receive_005" duration-ms="14974" started-at="2019-11-29T22:51:41Z" description="Verify that by leaving one or all mandatory fields" finished-at="2019-11-29T22:51:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_Receive_005 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ssms.SSMS_Automation.testCase.ReceiveModule@604ed9f0]" name="tearDown" is-config="true" duration-ms="1444" started-at="2019-11-29T22:51:56Z" finished-at="2019-11-29T22:51:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:ssms.SSMS_Automation.testCase.ReceiveModule@604ed9f0]" name="setup" is-config="true" duration-ms="8578" started-at="2019-11-29T22:52:19Z" finished-at="2019-11-29T22:52:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Tc_Receive_006()[pri:5, instance:ssms.SSMS_Automation.testCase.ReceiveModule@604ed9f0]" name="Tc_Receive_006" duration-ms="15153" started-at="2019-11-29T22:52:27Z" description="Verify that by leaving one or all mandatory fields" finished-at="2019-11-29T22:52:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_Receive_006 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ssms.SSMS_Automation.testCase.ReceiveModule@604ed9f0]" name="tearDown" is-config="true" duration-ms="1368" started-at="2019-11-29T22:52:42Z" finished-at="2019-11-29T22:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:ssms.SSMS_Automation.testCase.ReceiveModule@604ed9f0]" name="setup" is-config="true" duration-ms="8056" started-at="2019-11-29T22:52:44Z" finished-at="2019-11-29T22:52:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Tc_Receive_007()[pri:6, instance:ssms.SSMS_Automation.testCase.ReceiveModule@604ed9f0]" name="Tc_Receive_007" duration-ms="19411" started-at="2019-11-29T22:52:52Z" description="Validation on Data type of the textbox" finished-at="2019-11-29T22:53:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_Receive_007 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ssms.SSMS_Automation.testCase.ReceiveModule@604ed9f0]" name="tearDown" is-config="true" duration-ms="1383" started-at="2019-11-29T22:53:11Z" finished-at="2019-11-29T22:53:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:ssms.SSMS_Automation.testCase.ReceiveModule@604ed9f0]" name="setup" is-config="true" duration-ms="8708" started-at="2019-11-29T22:53:27Z" finished-at="2019-11-29T22:53:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Tc_Receive_008()[pri:7, instance:ssms.SSMS_Automation.testCase.ReceiveModule@604ed9f0]" name="Tc_Receive_008" duration-ms="20018" started-at="2019-11-29T22:53:36Z" finished-at="2019-11-29T22:53:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_Receive_008 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ssms.SSMS_Automation.testCase.ReceiveModule@604ed9f0]" name="tearDown" is-config="true" duration-ms="1357" started-at="2019-11-29T22:53:56Z" finished-at="2019-11-29T22:53:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ssms.SSMS_Automation.testCase.ReceiveModule -->
+      <class name="ssms.SSMS_Automation.testCase.AdminModule">
+        <test-method status="PASS" signature="setup()[pri:0, instance:ssms.SSMS_Automation.testCase.AdminModule@6a4f787b]" name="setup" is-config="true" duration-ms="8162" started-at="2019-11-29T22:48:55Z" finished-at="2019-11-29T22:49:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="Tc_Location_State01_001()[pri:0, instance:ssms.SSMS_Automation.testCase.AdminModule@6a4f787b]" name="Tc_Location_State01_001" duration-ms="3101" started-at="2019-11-29T22:49:04Z" description="Verify That Appearance of Create State UI Displayed Successfully" finished-at="2019-11-29T22:49:07Z">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[Fail due to exception no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(),' Hello, PAWAN ')]"}
+              <![CDATA[element click intercepted: Element <span _ngcontent-c26="" style="margin-left: 5px;" class="ng-star-inserted">...</span> is not clickable at point (143, 84). Other element would receive the click: <div _ngcontent-c25="" class="noprint ng-star-inserted" id="loader">...</div>
   (Session info: chrome=78.0.3904.108)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'P0613', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_202'
+System info: host: 'P0613', ip: '192.168.116.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\ADARSH~1.LOO\AppData\Local\Temp\scoped_dir16440_1400768679}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:63369}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
-Session ID: f6b07c92681bf4f5ba70978f957556f6
-*** Element info: {Using=xpath, value=//*[contains(text(),' Hello, PAWAN ')]}]]>
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\ADARSH~1.LOO\AppData\Local\Temp\scoped_dir13144_1602741424}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54824}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
+Session ID: 6f3c4420453da179ce4c60a5b6d22965]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Fail due to exception no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(),' Hello, PAWAN ')]"}
+              <![CDATA[org.openqa.selenium.WebDriverException: element click intercepted: Element <span _ngcontent-c26="" style="margin-left: 5px;" class="ng-star-inserted">...</span> is not clickable at point (143, 84). Other element would receive the click: <div _ngcontent-c25="" class="noprint ng-star-inserted" id="loader">...</div>
   (Session info: chrome=78.0.3904.108)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'P0613', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_202'
+System info: host: 'P0613', ip: '192.168.116.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\ADARSH~1.LOO\AppData\Local\Temp\scoped_dir16440_1400768679}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:63369}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
-Session ID: f6b07c92681bf4f5ba70978f957556f6
-*** Element info: {Using=xpath, value=//*[contains(text(),' Hello, PAWAN ')]}
-	at org.testng.Assert.fail(Assert.java:94)
-	at ssms.SSMS_Automation.modules.HomePage.logOut(HomePage.java:19)
-	at ssms.SSMS_Automation.testCase.LoginRegistration.Tc_Login_011(LoginRegistration.java:61)
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\ADARSH~1.LOO\AppData\Local\Temp\scoped_dir13144_1602741424}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54824}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
+Session ID: 6f3c4420453da179ce4c60a5b6d22965
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at ssms.SSMS_Automation.modules.AdminModulePage.addState(AdminModulePage.java:56)
+	at ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State01_001(AdminModule.java:28)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -63,15 +254,441 @@ Session ID: f6b07c92681bf4f5ba70978f957556f6
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Tc_Login_011 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:ssms.SSMS_Automation.testCase.LoginRegistration@66a3ffec]" name="tearDown" is-config="true" duration-ms="2116" started-at="2019-11-20T12:11:34Z" finished-at="2019-11-20T12:11:36Z">
+        </test-method> <!-- Tc_Location_State01_001 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ssms.SSMS_Automation.testCase.AdminModule@6a4f787b]" name="tearDown" is-config="true" duration-ms="1445" started-at="2019-11-29T22:49:07Z" finished-at="2019-11-29T22:49:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- ssms.SSMS_Automation.testCase.LoginRegistration -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:ssms.SSMS_Automation.testCase.AdminModule@6a4f787b]" name="setup" is-config="true" duration-ms="8194" started-at="2019-11-29T22:49:36Z" finished-at="2019-11-29T22:49:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="Tc_Location_State_02_002()[pri:1, instance:ssms.SSMS_Automation.testCase.AdminModule@6a4f787b]" name="Tc_Location_State_02_002" duration-ms="2980" started-at="2019-11-29T22:49:44Z" description="Validation on length of textbox, all errorMessge and Validation Message Displayed Successfully" finished-at="2019-11-29T22:49:47Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[element click intercepted: Element <span _ngcontent-c26="" style="margin-left: 5px;" class="ng-star-inserted">...</span> is not clickable at point (143, 84). Other element would receive the click: <div _ngcontent-c25="" class="noprint ng-star-inserted" id="loader">...</div>
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'P0613', ip: '192.168.116.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\ADARSH~1.LOO\AppData\Local\Temp\scoped_dir12988_1835854792}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54924}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
+Session ID: aa52c17ce314dba53c582f21d6e065b4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: element click intercepted: Element <span _ngcontent-c26="" style="margin-left: 5px;" class="ng-star-inserted">...</span> is not clickable at point (143, 84). Other element would receive the click: <div _ngcontent-c25="" class="noprint ng-star-inserted" id="loader">...</div>
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'P0613', ip: '192.168.116.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\ADARSH~1.LOO\AppData\Local\Temp\scoped_dir12988_1835854792}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54924}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
+Session ID: aa52c17ce314dba53c582f21d6e065b4
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at ssms.SSMS_Automation.modules.AdminModulePage.addState(AdminModulePage.java:56)
+	at ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_02_002(AdminModule.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_Location_State_02_002 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ssms.SSMS_Automation.testCase.AdminModule@6a4f787b]" name="tearDown" is-config="true" duration-ms="1419" started-at="2019-11-29T22:49:47Z" finished-at="2019-11-29T22:49:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:ssms.SSMS_Automation.testCase.AdminModule@6a4f787b]" name="setup" is-config="true" duration-ms="8140" started-at="2019-11-29T22:50:23Z" finished-at="2019-11-29T22:50:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="Tc_Location_state_03_003()[pri:2, instance:ssms.SSMS_Automation.testCase.AdminModule@6a4f787b]" name="Tc_Location_state_03_003" duration-ms="2855" started-at="2019-11-29T22:50:31Z" description="Validation on data type of textbox errorMessge and Validation Message Displayed Successfully" finished-at="2019-11-29T22:50:34Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[element click intercepted: Element <span _ngcontent-c26="" style="margin-left: 5px;" class="ng-star-inserted">...</span> is not clickable at point (143, 84). Other element would receive the click: <div _ngcontent-c25="" class="noprint ng-star-inserted" id="loader">...</div>
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'P0613', ip: '192.168.116.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\ADARSH~1.LOO\AppData\Local\Temp\scoped_dir12376_1187164538}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:55023}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
+Session ID: 4a7f7e1d4742926bffdfd75824b36c25]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: element click intercepted: Element <span _ngcontent-c26="" style="margin-left: 5px;" class="ng-star-inserted">...</span> is not clickable at point (143, 84). Other element would receive the click: <div _ngcontent-c25="" class="noprint ng-star-inserted" id="loader">...</div>
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'P0613', ip: '192.168.116.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\ADARSH~1.LOO\AppData\Local\Temp\scoped_dir12376_1187164538}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:55023}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
+Session ID: 4a7f7e1d4742926bffdfd75824b36c25
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at ssms.SSMS_Automation.modules.AdminModulePage.addState(AdminModulePage.java:56)
+	at ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_state_03_003(AdminModule.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_Location_state_03_003 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ssms.SSMS_Automation.testCase.AdminModule@6a4f787b]" name="tearDown" is-config="true" duration-ms="1363" started-at="2019-11-29T22:50:34Z" finished-at="2019-11-29T22:50:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:ssms.SSMS_Automation.testCase.AdminModule@6a4f787b]" name="setup" is-config="true" duration-ms="8268" started-at="2019-11-29T22:51:10Z" finished-at="2019-11-29T22:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="Tc_Location_State_04_004()[pri:3, instance:ssms.SSMS_Automation.testCase.AdminModule@6a4f787b]" name="Tc_Location_State_04_004" duration-ms="3041" started-at="2019-11-29T22:51:18Z" description="Validate  State name with already existing one" finished-at="2019-11-29T22:51:21Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[element click intercepted: Element <span _ngcontent-c26="" style="margin-left: 5px;" class="ng-star-inserted">...</span> is not clickable at point (143, 84). Other element would receive the click: <div _ngcontent-c25="" class="noprint ng-star-inserted" id="loader">...</div>
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'P0613', ip: '192.168.116.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\ADARSH~1.LOO\AppData\Local\Temp\scoped_dir5432_1957689252}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:55125}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
+Session ID: eae7f64cbf6281854d2d150bedaf9621]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: element click intercepted: Element <span _ngcontent-c26="" style="margin-left: 5px;" class="ng-star-inserted">...</span> is not clickable at point (143, 84). Other element would receive the click: <div _ngcontent-c25="" class="noprint ng-star-inserted" id="loader">...</div>
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'P0613', ip: '192.168.116.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\ADARSH~1.LOO\AppData\Local\Temp\scoped_dir5432_1957689252}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:55125}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
+Session ID: eae7f64cbf6281854d2d150bedaf9621
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at ssms.SSMS_Automation.modules.AdminModulePage.addState(AdminModulePage.java:56)
+	at ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_04_004(AdminModule.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_Location_State_04_004 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ssms.SSMS_Automation.testCase.AdminModule@6a4f787b]" name="tearDown" is-config="true" duration-ms="1416" started-at="2019-11-29T22:51:21Z" finished-at="2019-11-29T22:51:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:ssms.SSMS_Automation.testCase.AdminModule@6a4f787b]" name="setup" is-config="true" duration-ms="7799" started-at="2019-11-29T22:51:57Z" finished-at="2019-11-29T22:52:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="Tc_Location_State_05_005()[pri:4, instance:ssms.SSMS_Automation.testCase.AdminModule@6a4f787b]" name="Tc_Location_State_05_005" duration-ms="2849" started-at="2019-11-29T22:52:05Z" description="Verify the error message : Mendatory Fields without data" finished-at="2019-11-29T22:52:08Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[element click intercepted: Element <span _ngcontent-c26="" style="margin-left: 5px;" class="ng-star-inserted">...</span> is not clickable at point (143, 84). Other element would receive the click: <div _ngcontent-c25="" class="noprint ng-star-inserted" id="loader">...</div>
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'P0613', ip: '192.168.116.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\ADARSH~1.LOO\AppData\Local\Temp\scoped_dir16020_879444681}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:55225}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
+Session ID: ac8ffb2bc15c0807bf2f72c27a7fe957]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: element click intercepted: Element <span _ngcontent-c26="" style="margin-left: 5px;" class="ng-star-inserted">...</span> is not clickable at point (143, 84). Other element would receive the click: <div _ngcontent-c25="" class="noprint ng-star-inserted" id="loader">...</div>
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'P0613', ip: '192.168.116.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\ADARSH~1.LOO\AppData\Local\Temp\scoped_dir16020_879444681}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:55225}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
+Session ID: ac8ffb2bc15c0807bf2f72c27a7fe957
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at ssms.SSMS_Automation.modules.AdminModulePage.addState(AdminModulePage.java:56)
+	at ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_05_005(AdminModule.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_Location_State_05_005 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ssms.SSMS_Automation.testCase.AdminModule@6a4f787b]" name="tearDown" is-config="true" duration-ms="1224" started-at="2019-11-29T22:52:08Z" finished-at="2019-11-29T22:52:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:ssms.SSMS_Automation.testCase.AdminModule@6a4f787b]" name="setup" is-config="true" duration-ms="8897" started-at="2019-11-29T22:53:13Z" finished-at="2019-11-29T22:53:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="Tc_Location_State_07_007()[pri:6, instance:ssms.SSMS_Automation.testCase.AdminModule@6a4f787b]" name="Tc_Location_State_07_007" duration-ms="3913" started-at="2019-11-29T22:53:22Z" description="Verify the Textbox with a clear (x) button" finished-at="2019-11-29T22:53:25Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[element click intercepted: Element <span _ngcontent-c26="" style="margin-left: 5px;" class="ng-star-inserted">...</span> is not clickable at point (143, 84). Other element would receive the click: <div _ngcontent-c25="" class="noprint ng-star-inserted" id="loader">...</div>
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'P0613', ip: '192.168.116.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\ADARSH~1.LOO\AppData\Local\Temp\scoped_dir11472_2023989350}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:55363}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
+Session ID: 7790efc7267c00f1cb6928da36c63bc0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: element click intercepted: Element <span _ngcontent-c26="" style="margin-left: 5px;" class="ng-star-inserted">...</span> is not clickable at point (143, 84). Other element would receive the click: <div _ngcontent-c25="" class="noprint ng-star-inserted" id="loader">...</div>
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'P0613', ip: '192.168.116.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\ADARSH~1.LOO\AppData\Local\Temp\scoped_dir11472_2023989350}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:55363}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
+Session ID: 7790efc7267c00f1cb6928da36c63bc0
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at ssms.SSMS_Automation.modules.AdminModulePage.addState(AdminModulePage.java:56)
+	at ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_07_007(AdminModule.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_Location_State_07_007 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ssms.SSMS_Automation.testCase.AdminModule@6a4f787b]" name="tearDown" is-config="true" duration-ms="1393" started-at="2019-11-29T22:53:26Z" finished-at="2019-11-29T22:53:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:ssms.SSMS_Automation.testCase.AdminModule@6a4f787b]" name="setup" is-config="true" duration-ms="8418" started-at="2019-11-29T22:53:57Z" finished-at="2019-11-29T22:54:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="Tc_Location_State_08_008()[pri:7, instance:ssms.SSMS_Automation.testCase.AdminModule@6a4f787b]" name="Tc_Location_State_08_008" duration-ms="3924" started-at="2019-11-29T22:54:05Z" description="Create state with valied data" finished-at="2019-11-29T22:54:09Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[element click intercepted: Element <mat-icon _ngcontent-c33="" class="mat-icon notranslate material-icons mat-icon-no-color" role="img" aria-hidden="true">...</mat-icon> is not clickable at point (1326, 568). Other element would receive the click: <div _ngcontent-c25="" class="noprint ng-star-inserted" id="loader">...</div>
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'P0613', ip: '192.168.116.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\ADARSH~1.LOO\AppData\Local\Temp\scoped_dir13416_938918251}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:55437}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
+Session ID: 56cfab330b329fef61ba7c3c8ae33b9d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: element click intercepted: Element <mat-icon _ngcontent-c33="" class="mat-icon notranslate material-icons mat-icon-no-color" role="img" aria-hidden="true">...</mat-icon> is not clickable at point (1326, 568). Other element would receive the click: <div _ngcontent-c25="" class="noprint ng-star-inserted" id="loader">...</div>
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'P0613', ip: '192.168.116.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\ADARSH~1.LOO\AppData\Local\Temp\scoped_dir13416_938918251}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:55437}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
+Session ID: 56cfab330b329fef61ba7c3c8ae33b9d
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at ssms.SSMS_Automation.modules.AdminModulePage.addState(AdminModulePage.java:59)
+	at ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_08_008(AdminModule.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_Location_State_08_008 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ssms.SSMS_Automation.testCase.AdminModule@6a4f787b]" name="tearDown" is-config="true" duration-ms="1385" started-at="2019-11-29T22:54:09Z" finished-at="2019-11-29T22:54:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ssms.SSMS_Automation.testCase.AdminModule -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

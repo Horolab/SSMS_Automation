@@ -9,10 +9,6 @@ import org.testng.annotations.Test;
 
 import ssms.SSMS_Automation.Base;
 
-/**
- * @author uma.Sasmal
- *
- */
 public class AdminModulePage extends Base {
 	public final String adminTabLink_xpath="//span[contains(text(),'Admin')]";
 	public final String locationLink_xpath="//mat-panel-title[contains(text(),'Location')]";
@@ -46,13 +42,6 @@ public class AdminModulePage extends Base {
 	public final String saveState_xpath="//span[text()='Save']";
 	
 	*/
-	
-	
-	
-	
-	
-	
-	
 	
 	
 	/*Modular Methods*/
