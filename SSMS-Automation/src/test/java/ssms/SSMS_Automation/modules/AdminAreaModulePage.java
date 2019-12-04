@@ -84,7 +84,7 @@ public class AdminAreaModulePage extends Base {
 			Thread.sleep(3000);
 			admincity.adminCitySearchButtonClick();
 			Thread.sleep(5000);
-			String randomArea = getPropertyData("CityName");
+			String randomArea = getPropertyData("AreaName");
 
 			driver.findElement(By.xpath(searchCityTextBox_xpath)).sendKeys(randomArea);
 		}catch(Exception e){
@@ -207,7 +207,7 @@ public class AdminAreaModulePage extends Base {
 		try{	
 			randomAreaNameGenerator();
 			Thread.sleep(5000);
-			String areaname = getPropertyData("CityName");
+			String areaname = getPropertyData("AreaName");
 			driver.findElement(By.xpath(nameField_xpath)).sendKeys(areaname);
 		}
 		catch(Exception e){
@@ -222,7 +222,7 @@ public class AdminAreaModulePage extends Base {
 		try{	
 			randomArea=randomName();
 			String area = randomArea;
-			storeData("CityName", area);
+			storeData("AreaName", area);
 			Thread.sleep(5000);
 		}
 		catch(Exception e){
