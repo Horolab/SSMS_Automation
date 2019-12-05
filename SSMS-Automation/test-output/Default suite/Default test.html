@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>15/7/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>64/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Nov 29 22:48:18 CST 2019</td>
+<td>Started on:</td><td>Wed Dec 04 19:27:06 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>363 seconds (363341 ms)</td>
+<tr><td>Total time:</td><td>4502 seconds (4502990 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,32 +75,22 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State01_001()'><b>Tc_Location_State01_001</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Verify That Appearance of Create State UI Displayed Successfully</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: element click intercepted: Element &lt;span _ngcontent-c26=&quot;&quot; style=&quot;margin-left: 5px;&quot; class=&quot;ng-star-inserted&quot;&gt;...&lt;/span&gt; is not clickable at point (143, 84). Other element would receive the click: &lt;div _ngcontent-c25=&quot;&quot; class=&quot;noprint ng-star-inserted&quot; id=&quot;loader&quot;&gt;...&lt;/div&gt;
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_Area_53_53()'><b>Tc_Location_Area_53_53</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Validation on data type of  textbox</td>
+<td><div><pre>java.lang.AssertionError: Fail due to exception element click intercepted: Element &lt;span class=&quot;mat-option-text&quot;&gt;...&lt;/span&gt; is not clickable at point (484, 438). Other element would receive the click: &lt;div class=&quot;cdk-overlay-backdrop cdk-overlay-transparent-backdrop cdk-overlay-backdrop-showing&quot;&gt;&lt;/div&gt;
   (Session info: chrome=78.0.3904.108)
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;P0613&apos;, ip: &apos;192.168.116.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_202&apos;
+System info: host: &apos;RAJ-PC&apos;, ip: &apos;192.168.0.3&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_151&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\ADARSH~1.LOO\AppData\Local\Temp\scoped_dir13144_1602741424}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54824}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
-Session ID: 6f3c4420453da179ce4c60a5b6d22965
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at ssms.SSMS_Automation.modules.AdminModulePage.addState(AdminModulePage.java:56)
-	at ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State01_001(AdminModule.java:28)
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\RAJ\AppData\Local\Temp\scoped_dir7552_220946438}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:4452}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
+Session ID: c9b92f003a58e1c0c67df60991e2e1ac
+	at org.testng.Assert.fail(Assert.java:94)
+	at ssms.SSMS_Automation.modules.AdminCityModulePage.stateSelect(AdminCityModulePage.java:210)
+	at ssms.SSMS_Automation.modules.AdminAreaModulePage.selectCityWithState(AdminAreaModulePage.java:144)
+	at ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_Area_53_53(AdminModule.java:539)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
@@ -118,35 +108,25 @@ Session ID: 6f3c4420453da179ce4c60a5b6d22965
 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
 	at org.testng.TestNG.run(TestNG.java:1024)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1122130699", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1122130699'><pre>org.openqa.selenium.WebDriverException: element click intercepted: Element &lt;span _ngcontent-c26=&quot;&quot; style=&quot;margin-left: 5px;&quot; class=&quot;ng-star-inserted&quot;&gt;...&lt;/span&gt; is not clickable at point (143, 84). Other element would receive the click: &lt;div _ngcontent-c25=&quot;&quot; class=&quot;noprint ng-star-inserted&quot; id=&quot;loader&quot;&gt;...&lt;/div&gt;
+</pre></div><a href='#' onClick='toggleBox("stack-trace1305004711", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1305004711'><pre>java.lang.AssertionError: Fail due to exception element click intercepted: Element &lt;span class=&quot;mat-option-text&quot;&gt;...&lt;/span&gt; is not clickable at point (484, 438). Other element would receive the click: &lt;div class=&quot;cdk-overlay-backdrop cdk-overlay-transparent-backdrop cdk-overlay-backdrop-showing&quot;&gt;&lt;/div&gt;
   (Session info: chrome=78.0.3904.108)
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;P0613&apos;, ip: &apos;192.168.116.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_202&apos;
+System info: host: &apos;RAJ-PC&apos;, ip: &apos;192.168.0.3&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_151&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\ADARSH~1.LOO\AppData\Local\Temp\scoped_dir13144_1602741424}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54824}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
-Session ID: 6f3c4420453da179ce4c60a5b6d22965
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at ssms.SSMS_Automation.modules.AdminModulePage.addState(AdminModulePage.java:56)
-	at ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State01_001(AdminModule.java:28)
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\RAJ\AppData\Local\Temp\scoped_dir7552_220946438}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:4452}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
+Session ID: c9b92f003a58e1c0c67df60991e2e1ac
+	at org.testng.Assert.fail(Assert.java:94)
+	at ssms.SSMS_Automation.modules.AdminCityModulePage.stateSelect(AdminCityModulePage.java:210)
+	at ssms.SSMS_Automation.modules.AdminAreaModulePage.selectCityWithState(AdminAreaModulePage.java:144)
+	at ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_Area_53_53(AdminModule.java:539)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
@@ -164,39 +144,29 @@ Session ID: 6f3c4420453da179ce4c60a5b6d22965
 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
 	at org.testng.TestNG.run(TestNG.java:1024)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>3</td>
-<td>ssms.SSMS_Automation.testCase.AdminModule@6a4f787b</td></tr>
+<td>43</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
 <tr>
-<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_02_002()'><b>Tc_Location_State_02_002</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Validation on length of textbox, all errorMessge and Validation Message Displayed Successfully</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: element click intercepted: Element &lt;span _ngcontent-c26=&quot;&quot; style=&quot;margin-left: 5px;&quot; class=&quot;ng-star-inserted&quot;&gt;...&lt;/span&gt; is not clickable at point (143, 84). Other element would receive the click: &lt;div _ngcontent-c25=&quot;&quot; class=&quot;noprint ng-star-inserted&quot; id=&quot;loader&quot;&gt;...&lt;/div&gt;
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_Area_70_70()'><b>Tc_Location_Area_70_70</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Edit Area with valid data</td>
+<td><div><pre>java.lang.AssertionError: Fail due to exception element click intercepted: Element &lt;mat-select _ngcontent-c37=&quot;&quot; class=&quot;mat-select ng-tns-c40-73 ng-valid ng-star-inserted mat-select-empty ng-touched ng-dirty&quot; role=&quot;listbox&quot; id=&quot;mat-select-2&quot; tabindex=&quot;0&quot; aria-labelledby=&quot;mat-form-field-label-23&quot; aria-required=&quot;false&quot; aria-disabled=&quot;false&quot; aria-invalid=&quot;false&quot; aria-multiselectable=&quot;false&quot; aria-describedby=&quot;mat-hint-1&quot;&gt;...&lt;/mat-select&gt; is not clickable at point (496, 201). Other element would receive the click: &lt;div class=&quot;cdk-overlay-backdrop cdk-overlay-transparent-backdrop cdk-overlay-backdrop-showing&quot;&gt;&lt;/div&gt;
   (Session info: chrome=78.0.3904.108)
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;P0613&apos;, ip: &apos;192.168.116.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_202&apos;
+System info: host: &apos;RAJ-PC&apos;, ip: &apos;192.168.0.3&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_151&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\ADARSH~1.LOO\AppData\Local\Temp\scoped_dir12988_1835854792}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54924}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
-Session ID: aa52c17ce314dba53c582f21d6e065b4
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at ssms.SSMS_Automation.modules.AdminModulePage.addState(AdminModulePage.java:56)
-	at ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_02_002(AdminModule.java:34)
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\RAJ\AppData\Local\Temp\scoped_dir5244_2053519945}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:5790}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
+Session ID: ad78f5a2c5d7bbd6cd7624174e57d8d3
+	at org.testng.Assert.fail(Assert.java:94)
+	at ssms.SSMS_Automation.modules.AdminCityModulePage.stateSelect(AdminCityModulePage.java:210)
+	at ssms.SSMS_Automation.modules.AdminAreaModulePage.selectCityWithState(AdminAreaModulePage.java:144)
+	at ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_Area_70_70(AdminModule.java:698)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
@@ -214,35 +184,25 @@ Session ID: aa52c17ce314dba53c582f21d6e065b4
 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
 	at org.testng.TestNG.run(TestNG.java:1024)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace258112787", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace258112787'><pre>org.openqa.selenium.WebDriverException: element click intercepted: Element &lt;span _ngcontent-c26=&quot;&quot; style=&quot;margin-left: 5px;&quot; class=&quot;ng-star-inserted&quot;&gt;...&lt;/span&gt; is not clickable at point (143, 84). Other element would receive the click: &lt;div _ngcontent-c25=&quot;&quot; class=&quot;noprint ng-star-inserted&quot; id=&quot;loader&quot;&gt;...&lt;/div&gt;
+</pre></div><a href='#' onClick='toggleBox("stack-trace847320212", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace847320212'><pre>java.lang.AssertionError: Fail due to exception element click intercepted: Element &lt;mat-select _ngcontent-c37=&quot;&quot; class=&quot;mat-select ng-tns-c40-73 ng-valid ng-star-inserted mat-select-empty ng-touched ng-dirty&quot; role=&quot;listbox&quot; id=&quot;mat-select-2&quot; tabindex=&quot;0&quot; aria-labelledby=&quot;mat-form-field-label-23&quot; aria-required=&quot;false&quot; aria-disabled=&quot;false&quot; aria-invalid=&quot;false&quot; aria-multiselectable=&quot;false&quot; aria-describedby=&quot;mat-hint-1&quot;&gt;...&lt;/mat-select&gt; is not clickable at point (496, 201). Other element would receive the click: &lt;div class=&quot;cdk-overlay-backdrop cdk-overlay-transparent-backdrop cdk-overlay-backdrop-showing&quot;&gt;&lt;/div&gt;
   (Session info: chrome=78.0.3904.108)
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;P0613&apos;, ip: &apos;192.168.116.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_202&apos;
+System info: host: &apos;RAJ-PC&apos;, ip: &apos;192.168.0.3&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_151&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\ADARSH~1.LOO\AppData\Local\Temp\scoped_dir12988_1835854792}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54924}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
-Session ID: aa52c17ce314dba53c582f21d6e065b4
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at ssms.SSMS_Automation.modules.AdminModulePage.addState(AdminModulePage.java:56)
-	at ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_02_002(AdminModule.java:34)
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\RAJ\AppData\Local\Temp\scoped_dir5244_2053519945}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:5790}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
+Session ID: ad78f5a2c5d7bbd6cd7624174e57d8d3
+	at org.testng.Assert.fail(Assert.java:94)
+	at ssms.SSMS_Automation.modules.AdminCityModulePage.stateSelect(AdminCityModulePage.java:210)
+	at ssms.SSMS_Automation.modules.AdminAreaModulePage.selectCityWithState(AdminAreaModulePage.java:144)
+	at ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_Area_70_70(AdminModule.java:698)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
@@ -260,39 +220,30 @@ Session ID: aa52c17ce314dba53c582f21d6e065b4
 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
 	at org.testng.TestNG.run(TestNG.java:1024)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>2</td>
-<td>ssms.SSMS_Automation.testCase.AdminModule@6a4f787b</td></tr>
+<td>67</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
 <tr>
-<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_04_004()'><b>Tc_Location_State_04_004</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Validate  State name with already existing one</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: element click intercepted: Element &lt;span _ngcontent-c26=&quot;&quot; style=&quot;margin-left: 5px;&quot; class=&quot;ng-star-inserted&quot;&gt;...&lt;/span&gt; is not clickable at point (143, 84). Other element would receive the click: &lt;div _ngcontent-c25=&quot;&quot; class=&quot;noprint ng-star-inserted&quot; id=&quot;loader&quot;&gt;...&lt;/div&gt;
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_18_018()'><b>Tc_Location_State_18_018</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Cancle Edited State</td>
+<td><div><pre>java.lang.AssertionError: Fail due to exception no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[text()=&apos;Name&apos;]/following::span[6]&quot;}
   (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;P0613&apos;, ip: &apos;192.168.116.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_202&apos;
+System info: host: &apos;RAJ-PC&apos;, ip: &apos;192.168.0.3&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_151&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\ADARSH~1.LOO\AppData\Local\Temp\scoped_dir5432_1957689252}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:55125}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
-Session ID: eae7f64cbf6281854d2d150bedaf9621
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at ssms.SSMS_Automation.modules.AdminModulePage.addState(AdminModulePage.java:56)
-	at ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_04_004(AdminModule.java:54)
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\RAJ\AppData\Local\Temp\scoped_dir6052_2064690478}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:1173}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
+Session ID: 61d802ee7aeb98a2aaec0dcd361df4a0
+*** Element info: {Using=xpath, value=//button[text()=&apos;Name&apos;]/following::span[6]}
+	at org.testng.Assert.fail(Assert.java:94)
+	at ssms.SSMS_Automation.modules.AdminStateModulePage.updateDataCancel(AdminStateModulePage.java:435)
+	at ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_18_018(AdminModule.java:163)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
@@ -310,35 +261,26 @@ Session ID: eae7f64cbf6281854d2d150bedaf9621
 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
 	at org.testng.TestNG.run(TestNG.java:1024)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace409195262", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace409195262'><pre>org.openqa.selenium.WebDriverException: element click intercepted: Element &lt;span _ngcontent-c26=&quot;&quot; style=&quot;margin-left: 5px;&quot; class=&quot;ng-star-inserted&quot;&gt;...&lt;/span&gt; is not clickable at point (143, 84). Other element would receive the click: &lt;div _ngcontent-c25=&quot;&quot; class=&quot;noprint ng-star-inserted&quot; id=&quot;loader&quot;&gt;...&lt;/div&gt;
+</pre></div><a href='#' onClick='toggleBox("stack-trace2044482328", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2044482328'><pre>java.lang.AssertionError: Fail due to exception no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[text()=&apos;Name&apos;]/following::span[6]&quot;}
   (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;P0613&apos;, ip: &apos;192.168.116.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_202&apos;
+System info: host: &apos;RAJ-PC&apos;, ip: &apos;192.168.0.3&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_151&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\ADARSH~1.LOO\AppData\Local\Temp\scoped_dir5432_1957689252}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:55125}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
-Session ID: eae7f64cbf6281854d2d150bedaf9621
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at ssms.SSMS_Automation.modules.AdminModulePage.addState(AdminModulePage.java:56)
-	at ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_04_004(AdminModule.java:54)
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\RAJ\AppData\Local\Temp\scoped_dir6052_2064690478}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:1173}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
+Session ID: 61d802ee7aeb98a2aaec0dcd361df4a0
+*** Element info: {Using=xpath, value=//button[text()=&apos;Name&apos;]/following::span[6]}
+	at org.testng.Assert.fail(Assert.java:94)
+	at ssms.SSMS_Automation.modules.AdminStateModulePage.updateDataCancel(AdminStateModulePage.java:435)
+	at ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_18_018(AdminModule.java:163)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
@@ -356,396 +298,12 @@ Session ID: eae7f64cbf6281854d2d150bedaf9621
 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
 	at org.testng.TestNG.run(TestNG.java:1024)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>3</td>
-<td>ssms.SSMS_Automation.testCase.AdminModule@6a4f787b</td></tr>
-<tr>
-<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_05_005()'><b>Tc_Location_State_05_005</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Verify the error message : Mendatory Fields without data</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: element click intercepted: Element &lt;span _ngcontent-c26=&quot;&quot; style=&quot;margin-left: 5px;&quot; class=&quot;ng-star-inserted&quot;&gt;...&lt;/span&gt; is not clickable at point (143, 84). Other element would receive the click: &lt;div _ngcontent-c25=&quot;&quot; class=&quot;noprint ng-star-inserted&quot; id=&quot;loader&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=78.0.3904.108)
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;P0613&apos;, ip: &apos;192.168.116.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_202&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\ADARSH~1.LOO\AppData\Local\Temp\scoped_dir16020_879444681}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:55225}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
-Session ID: ac8ffb2bc15c0807bf2f72c27a7fe957
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at ssms.SSMS_Automation.modules.AdminModulePage.addState(AdminModulePage.java:56)
-	at ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_05_005(AdminModule.java:62)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
-	at org.testng.TestNG.run(TestNG.java:1024)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1703696921", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1703696921'><pre>org.openqa.selenium.WebDriverException: element click intercepted: Element &lt;span _ngcontent-c26=&quot;&quot; style=&quot;margin-left: 5px;&quot; class=&quot;ng-star-inserted&quot;&gt;...&lt;/span&gt; is not clickable at point (143, 84). Other element would receive the click: &lt;div _ngcontent-c25=&quot;&quot; class=&quot;noprint ng-star-inserted&quot; id=&quot;loader&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=78.0.3904.108)
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;P0613&apos;, ip: &apos;192.168.116.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_202&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\ADARSH~1.LOO\AppData\Local\Temp\scoped_dir16020_879444681}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:55225}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
-Session ID: ac8ffb2bc15c0807bf2f72c27a7fe957
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at ssms.SSMS_Automation.modules.AdminModulePage.addState(AdminModulePage.java:56)
-	at ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_05_005(AdminModule.java:62)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
-	at org.testng.TestNG.run(TestNG.java:1024)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>2</td>
-<td>ssms.SSMS_Automation.testCase.AdminModule@6a4f787b</td></tr>
-<tr>
-<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_07_007()'><b>Tc_Location_State_07_007</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Verify the Textbox with a clear (x) button</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: element click intercepted: Element &lt;span _ngcontent-c26=&quot;&quot; style=&quot;margin-left: 5px;&quot; class=&quot;ng-star-inserted&quot;&gt;...&lt;/span&gt; is not clickable at point (143, 84). Other element would receive the click: &lt;div _ngcontent-c25=&quot;&quot; class=&quot;noprint ng-star-inserted&quot; id=&quot;loader&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=78.0.3904.108)
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;P0613&apos;, ip: &apos;192.168.116.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_202&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\ADARSH~1.LOO\AppData\Local\Temp\scoped_dir11472_2023989350}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:55363}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
-Session ID: 7790efc7267c00f1cb6928da36c63bc0
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at ssms.SSMS_Automation.modules.AdminModulePage.addState(AdminModulePage.java:56)
-	at ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_07_007(AdminModule.java:70)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
-	at org.testng.TestNG.run(TestNG.java:1024)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace208684473", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace208684473'><pre>org.openqa.selenium.WebDriverException: element click intercepted: Element &lt;span _ngcontent-c26=&quot;&quot; style=&quot;margin-left: 5px;&quot; class=&quot;ng-star-inserted&quot;&gt;...&lt;/span&gt; is not clickable at point (143, 84). Other element would receive the click: &lt;div _ngcontent-c25=&quot;&quot; class=&quot;noprint ng-star-inserted&quot; id=&quot;loader&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=78.0.3904.108)
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;P0613&apos;, ip: &apos;192.168.116.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_202&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\ADARSH~1.LOO\AppData\Local\Temp\scoped_dir11472_2023989350}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:55363}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
-Session ID: 7790efc7267c00f1cb6928da36c63bc0
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at ssms.SSMS_Automation.modules.AdminModulePage.addState(AdminModulePage.java:56)
-	at ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_07_007(AdminModule.java:70)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
-	at org.testng.TestNG.run(TestNG.java:1024)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>3</td>
-<td>ssms.SSMS_Automation.testCase.AdminModule@6a4f787b</td></tr>
-<tr>
-<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_08_008()'><b>Tc_Location_State_08_008</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Create state with valied data</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: element click intercepted: Element &lt;mat-icon _ngcontent-c33=&quot;&quot; class=&quot;mat-icon notranslate material-icons mat-icon-no-color&quot; role=&quot;img&quot; aria-hidden=&quot;true&quot;&gt;...&lt;/mat-icon&gt; is not clickable at point (1326, 568). Other element would receive the click: &lt;div _ngcontent-c25=&quot;&quot; class=&quot;noprint ng-star-inserted&quot; id=&quot;loader&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=78.0.3904.108)
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;P0613&apos;, ip: &apos;192.168.116.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_202&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\ADARSH~1.LOO\AppData\Local\Temp\scoped_dir13416_938918251}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:55437}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
-Session ID: 56cfab330b329fef61ba7c3c8ae33b9d
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at ssms.SSMS_Automation.modules.AdminModulePage.addState(AdminModulePage.java:59)
-	at ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_08_008(AdminModule.java:77)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
-	at org.testng.TestNG.run(TestNG.java:1024)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1052212904", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1052212904'><pre>org.openqa.selenium.WebDriverException: element click intercepted: Element &lt;mat-icon _ngcontent-c33=&quot;&quot; class=&quot;mat-icon notranslate material-icons mat-icon-no-color&quot; role=&quot;img&quot; aria-hidden=&quot;true&quot;&gt;...&lt;/mat-icon&gt; is not clickable at point (1326, 568). Other element would receive the click: &lt;div _ngcontent-c25=&quot;&quot; class=&quot;noprint ng-star-inserted&quot; id=&quot;loader&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=78.0.3904.108)
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;P0613&apos;, ip: &apos;192.168.116.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_202&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\ADARSH~1.LOO\AppData\Local\Temp\scoped_dir13416_938918251}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:55437}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
-Session ID: 56cfab330b329fef61ba7c3c8ae33b9d
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at ssms.SSMS_Automation.modules.AdminModulePage.addState(AdminModulePage.java:59)
-	at ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_08_008(AdminModule.java:77)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
-	at org.testng.TestNG.run(TestNG.java:1024)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>3</td>
-<td>ssms.SSMS_Automation.testCase.AdminModule@6a4f787b</td></tr>
-<tr>
-<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_state_03_003()'><b>Tc_Location_state_03_003</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Validation on data type of textbox errorMessge and Validation Message Displayed Successfully</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: element click intercepted: Element &lt;span _ngcontent-c26=&quot;&quot; style=&quot;margin-left: 5px;&quot; class=&quot;ng-star-inserted&quot;&gt;...&lt;/span&gt; is not clickable at point (143, 84). Other element would receive the click: &lt;div _ngcontent-c25=&quot;&quot; class=&quot;noprint ng-star-inserted&quot; id=&quot;loader&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=78.0.3904.108)
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;P0613&apos;, ip: &apos;192.168.116.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_202&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\ADARSH~1.LOO\AppData\Local\Temp\scoped_dir12376_1187164538}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:55023}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
-Session ID: 4a7f7e1d4742926bffdfd75824b36c25
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at ssms.SSMS_Automation.modules.AdminModulePage.addState(AdminModulePage.java:56)
-	at ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_state_03_003(AdminModule.java:43)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
-	at org.testng.TestNG.run(TestNG.java:1024)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace238816832", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace238816832'><pre>org.openqa.selenium.WebDriverException: element click intercepted: Element &lt;span _ngcontent-c26=&quot;&quot; style=&quot;margin-left: 5px;&quot; class=&quot;ng-star-inserted&quot;&gt;...&lt;/span&gt; is not clickable at point (143, 84). Other element would receive the click: &lt;div _ngcontent-c25=&quot;&quot; class=&quot;noprint ng-star-inserted&quot; id=&quot;loader&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=78.0.3904.108)
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;P0613&apos;, ip: &apos;192.168.116.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_202&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}), userDataDir=C:\Users\ADARSH~1.LOO\AppData\Local\Temp\scoped_dir12376_1187164538}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:55023}, acceptInsecureCerts=false, browserVersion=78.0.3904.108, browserName=chrome, javascriptEnabled=true, platformName=windows nt, setWindowRect=true}]
-Session ID: 4a7f7e1d4742926bffdfd75824b36c25
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at ssms.SSMS_Automation.modules.AdminModulePage.addState(AdminModulePage.java:56)
-	at ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_state_03_003(AdminModule.java:43)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
-	at org.testng.TestNG.run(TestNG.java:1024)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>2</td>
-<td>ssms.SSMS_Automation.testCase.AdminModule@6a4f787b</td></tr>
+<td>45</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -755,80 +313,325 @@ Session ID: 4a7f7e1d4742926bffdfd75824b36c25
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='ssms.SSMS_Automation.testCase.LoginRegistration.Tc_Login_001()'><b>Tc_Login_001</b><br>Test class: ssms.SSMS_Automation.testCase.LoginRegistration<br>Test method: Verify Login with Valid Username and Valid Password</td>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_Area_51_51()'><b>Tc_Location_Area_51_51</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Appearance of Create Area UI</td>
 <td></td>
-<td>0</td>
-<td>ssms.SSMS_Automation.testCase.LoginRegistration@91161c7</td></tr>
+<td>40</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
 <tr>
-<td title='ssms.SSMS_Automation.testCase.LoginRegistration.Tc_Login_002()'><b>Tc_Login_002</b><br>Test class: ssms.SSMS_Automation.testCase.LoginRegistration<br>Test method: Verify Login with Valid Username and Invalid Password</td>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_Area_52_52()'><b>Tc_Location_Area_52_52</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Validation on length of textbox</td>
 <td></td>
-<td>2</td>
-<td>ssms.SSMS_Automation.testCase.LoginRegistration@91161c7</td></tr>
+<td>42</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
 <tr>
-<td title='ssms.SSMS_Automation.testCase.LoginRegistration.Tc_Login_003()'><b>Tc_Login_003</b><br>Test class: ssms.SSMS_Automation.testCase.LoginRegistration<br>Test method: Verify Login with Invalid Username and Valid Password</td>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_Area_54_54()'><b>Tc_Location_Area_54_54</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Validate  Existing 'City' name with already existing  'State'  within same State</td>
 <td></td>
-<td>1</td>
-<td>ssms.SSMS_Automation.testCase.LoginRegistration@91161c7</td></tr>
+<td>53</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
 <tr>
-<td title='ssms.SSMS_Automation.testCase.LoginRegistration.Tc_Login_004()'><b>Tc_Login_004</b><br>Test class: ssms.SSMS_Automation.testCase.LoginRegistration<br>Test method: Verify Login with Invalid Username and invalid Password</td>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_Area_55_55()'><b>Tc_Location_Area_55_55</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Check  for Drop down box </td>
 <td></td>
-<td>1</td>
-<td>ssms.SSMS_Automation.testCase.LoginRegistration@91161c7</td></tr>
+<td>41</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
 <tr>
-<td title='ssms.SSMS_Automation.testCase.LoginRegistration.Tc_Login_005()'><b>Tc_Login_005</b><br>Test class: ssms.SSMS_Automation.testCase.LoginRegistration<br>Test method: Verify that the login screen contains elements such as Username, Password, Sign in button,Forgot password link</td>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_Area_56_56()'><b>Tc_Location_Area_56_56</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Mendatory Fields without data</td>
 <td></td>
-<td>0</td>
-<td>ssms.SSMS_Automation.testCase.LoginRegistration@91161c7</td></tr>
+<td>41</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
 <tr>
-<td title='ssms.SSMS_Automation.testCase.LoginRegistration.Tc_Login_006()'><b>Tc_Login_006</b><br>Test class: ssms.SSMS_Automation.testCase.LoginRegistration<br>Test method: Verify that the Registration form contains Fullname, Email Id, Mobile number, Username,Password,Conform Password ,Register Button,Forgot Password Link</td>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_Area_58_58()'><b>Tc_Location_Area_58_58</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Textbox with a clear (x) button</td>
 <td></td>
-<td>0</td>
-<td>ssms.SSMS_Automation.testCase.LoginRegistration@91161c7</td></tr>
+<td>60</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
 <tr>
-<td title='ssms.SSMS_Automation.testCase.LoginRegistration.Tc_Login_009()'><b>Tc_Login_009</b><br>Test class: ssms.SSMS_Automation.testCase.LoginRegistration<br>Test method: Verify that system generates a validation message when clicking on submit button without filling all the mandatory fields.</td>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_Area_59_59()'><b>Tc_Location_Area_59_59</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Create Area with valied data</td>
 <td></td>
-<td>1</td>
-<td>ssms.SSMS_Automation.testCase.LoginRegistration@91161c7</td></tr>
+<td>92</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
 <tr>
-<td title='ssms.SSMS_Automation.testCase.ReceiveModule.Tc_Receive_001()'><b>Tc_Receive_001</b><br>Test class: ssms.SSMS_Automation.testCase.ReceiveModule<br>Test method: Verify that when ESSMS user login and click on Receive Module they can able to view the existing customer </td>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_Area_60_60()'><b>Tc_Location_Area_60_60</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Create City with  invalied data</td>
 <td></td>
-<td>14</td>
-<td>ssms.SSMS_Automation.testCase.ReceiveModule@604ed9f0</td></tr>
+<td>52</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
 <tr>
-<td title='ssms.SSMS_Automation.testCase.ReceiveModule.Tc_Receive_002()'><b>Tc_Receive_002</b><br>Test class: ssms.SSMS_Automation.testCase.ReceiveModule<br>Test method: Verify that ESSMS user can able to view the existing register customer details</td>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_Area_61_61()'><b>Tc_Location_Area_61_61</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Create Area with invalied data</td>
 <td></td>
-<td>8</td>
-<td>ssms.SSMS_Automation.testCase.ReceiveModule@604ed9f0</td></tr>
+<td>45</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
 <tr>
-<td title='ssms.SSMS_Automation.testCase.ReceiveModule.Tc_Receive_003()'><b>Tc_Receive_003</b><br>Test class: ssms.SSMS_Automation.testCase.ReceiveModule<br>Test method: Verify that ESSMS user can able to view the create Receive page</td>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_Area_62_62()'><b>Tc_Location_Area_62_62</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Create Area without giving any data</td>
 <td></td>
-<td>13</td>
-<td>ssms.SSMS_Automation.testCase.ReceiveModule@604ed9f0</td></tr>
+<td>41</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
 <tr>
-<td title='ssms.SSMS_Automation.testCase.ReceiveModule.Tc_Receive_004()'><b>Tc_Receive_004</b><br>Test class: ssms.SSMS_Automation.testCase.ReceiveModule<br>Test method: Verify that by entering all the mandatory fields</td>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_Area_63_63()'><b>Tc_Location_Area_63_63</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: 'Cancle' With data in all field</td>
 <td></td>
-<td>14</td>
-<td>ssms.SSMS_Automation.testCase.ReceiveModule@604ed9f0</td></tr>
+<td>55</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
 <tr>
-<td title='ssms.SSMS_Automation.testCase.ReceiveModule.Tc_Receive_005()'><b>Tc_Receive_005</b><br>Test class: ssms.SSMS_Automation.testCase.ReceiveModule<br>Test method: Verify that by leaving one or all mandatory fields</td>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_Area_64_64()'><b>Tc_Location_Area_64_64</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Cancle' without data in all fields </td>
 <td></td>
-<td>14</td>
-<td>ssms.SSMS_Automation.testCase.ReceiveModule@604ed9f0</td></tr>
+<td>38</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
 <tr>
-<td title='ssms.SSMS_Automation.testCase.ReceiveModule.Tc_Receive_006()'><b>Tc_Receive_006</b><br>Test class: ssms.SSMS_Automation.testCase.ReceiveModule<br>Test method: Verify that by leaving one or all mandatory fields</td>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_Area_65_65()'><b>Tc_Location_Area_65_65</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Check if the  user response of YES or NO  are saved in the right data base coloumn</td>
 <td></td>
-<td>15</td>
-<td>ssms.SSMS_Automation.testCase.ReceiveModule@604ed9f0</td></tr>
+<td>106</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
 <tr>
-<td title='ssms.SSMS_Automation.testCase.ReceiveModule.Tc_Receive_007()'><b>Tc_Receive_007</b><br>Test class: ssms.SSMS_Automation.testCase.ReceiveModule<br>Test method: Validation on Data type of the textbox</td>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_Area_66_66()'><b>Tc_Location_Area_66_66</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Check the radio button allows for more then one selection</td>
 <td></td>
-<td>19</td>
-<td>ssms.SSMS_Automation.testCase.ReceiveModule@604ed9f0</td></tr>
+<td>56</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
 <tr>
-<td title='ssms.SSMS_Automation.testCase.ReceiveModule.Tc_Receive_008()'><b>Tc_Receive_008</b><br>Test class: ssms.SSMS_Automation.testCase.ReceiveModule</td>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_Area_69_69()'><b>Tc_Location_Area_69_69</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Area : Appearance of Edit Row UI</td>
 <td></td>
-<td>20</td>
-<td>ssms.SSMS_Automation.testCase.ReceiveModule@604ed9f0</td></tr>
+<td>37</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_Area_71_71()'><b>Tc_Location_Area_71_71</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Cancle Edited Area</td>
+<td></td>
+<td>78</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_Area_72_72()'><b>Tc_Location_Area_72_72</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Edit Area with invalid data</td>
+<td></td>
+<td>47</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_Area_73_73()'><b>Tc_Location_Area_73_73</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Appearance of Delete Row UI</td>
+<td></td>
+<td>29</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_Area_74_74()'><b>Tc_Location_Area_74_74</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Functionality of 'Yes' button</td>
+<td></td>
+<td>90</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_City_25_025_()'><b>Tc_Location_City_25_025_</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Appearance of Create City UI</td>
+<td></td>
+<td>40</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_City_26_026()'><b>Tc_Location_City_26_026</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Validation on length of textbox</td>
+<td></td>
+<td>43</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_City_27_027()'><b>Tc_Location_City_27_027</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Validation on data type of  textbox</td>
+<td></td>
+<td>79</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_City_28_028()'><b>Tc_Location_City_28_028</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Validate  Existing 'City' name with already existing  'State'  within same State</td>
+<td></td>
+<td>53</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_City_30_30()'><b>Tc_Location_City_30_30</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Mendatory Fields without data</td>
+<td></td>
+<td>41</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_City_32_32()'><b>Tc_Location_City_32_32</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Textbox with a clear (x) button</td>
+<td></td>
+<td>38</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_City_33_33()'><b>Tc_Location_City_33_33</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Create City with valied data</td>
+<td></td>
+<td>50</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_City_34_34()'><b>Tc_Location_City_34_34</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Create City with  invalied data</td>
+<td></td>
+<td>54</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_City_35_35()'><b>Tc_Location_City_35_35</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Create City without giving any data</td>
+<td></td>
+<td>56</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_City_36_36()'><b>Tc_Location_City_36_36</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: 'Cancle' With data in all field</td>
+<td></td>
+<td>50</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_City_37_37()'><b>Tc_Location_City_37_37</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: 'Cancle' without data in all fields </td>
+<td></td>
+<td>38</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_City_38_38()'><b>Tc_Location_City_38_38</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Check the  radio checkbox switcher gets selected using mouse cursor action</td>
+<td></td>
+<td>37</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_City_39_39()'><b>Tc_Location_City_39_39</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Check the  radio checkbox switcher gets selected using mouse cursor action</td>
+<td></td>
+<td>56</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_City_42_42()'><b>Tc_Location_City_42_42</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Appearance of Edit Row UI</td>
+<td></td>
+<td>38</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_City_43_43()'><b>Tc_Location_City_43_43</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Edit city with valid data</td>
+<td></td>
+<td>83</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_City_44_44()'><b>Tc_Location_City_44_44</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Cancle Edited City</td>
+<td></td>
+<td>58</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_City_45_45()'><b>Tc_Location_City_45_45</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Edit City with invalied data</td>
+<td></td>
+<td>52</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_City_46_46()'><b>Tc_Location_City_46_46</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Appearance of Delete Row UI</td>
+<td></td>
+<td>85</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_City_47_47()'><b>Tc_Location_City_47_47</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Functionality of 'Yes' button</td>
+<td></td>
+<td>84</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_City_48_48()'><b>Tc_Location_City_48_48</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Functionality of Undo option</td>
+<td></td>
+<td>92</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_City_49_49()'><b>Tc_Location_City_49_49</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Functionality of Undo option</td>
+<td></td>
+<td>101</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_City_50_50()'><b>Tc_Location_City_50_50</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Functionality of View timelines</td>
+<td></td>
+<td>127</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_City_51_51()'><b>Tc_Location_City_51_51</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Functionality of Search Icon</td>
+<td></td>
+<td>87</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_01_001()'><b>Tc_Location_State_01_001</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Verify That Appearance of Create State UI Displayed Successfully</td>
+<td></td>
+<td>34</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_02_002()'><b>Tc_Location_State_02_002</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Validation on length of textbox, all errorMessge and Validation Message Displayed Successfully</td>
+<td></td>
+<td>89</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_04_004()'><b>Tc_Location_State_04_004</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Validate  State name with already existing one</td>
+<td></td>
+<td>29</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_05_005()'><b>Tc_Location_State_05_005</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Verify the error message : Mendatory Fields without data</td>
+<td></td>
+<td>27</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_07_007()'><b>Tc_Location_State_07_007</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Verify the Textbox with a clear (x) button</td>
+<td></td>
+<td>28</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_08_008()'><b>Tc_Location_State_08_008</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Create state with valid data</td>
+<td></td>
+<td>61</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_09_009()'><b>Tc_Location_State_09_009</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Create state with Invalid data</td>
+<td></td>
+<td>27</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_09_009_duplicate()'><b>Tc_Location_State_09_009_duplicate</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Create state without data</td>
+<td></td>
+<td>27</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_10_010()'><b>Tc_Location_State_10_010</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: 'Cancle' With data in all field</td>
+<td></td>
+<td>27</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_11_011()'><b>Tc_Location_State_11_011</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: 'Cancle' Without data in all field</td>
+<td></td>
+<td>28</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_12_012()'><b>Tc_Location_State_12_012</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Check the  radio checkbox switcher gets selected using mouse cursor action</td>
+<td></td>
+<td>59</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_13_013()'><b>Tc_Location_State_13_013</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Check the radio button allows for more then one selection</td>
+<td></td>
+<td>78</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_16_016()'><b>Tc_Location_State_16_016</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Appearance of Edit Row UI</td>
+<td></td>
+<td>40</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_17_017()'><b>Tc_Location_State_17_017</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Edit state with valid data</td>
+<td></td>
+<td>64</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_19_019()'><b>Tc_Location_State_19_019</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Cancle Edited State</td>
+<td></td>
+<td>56</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_20_020()'><b>Tc_Location_State_20_020</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Appearance of Delete Row UI</td>
+<td></td>
+<td>29</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_21_021()'><b>Tc_Location_State_21_021</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Delete: Yes : Pop up window get displayed with :Item deleted and displayed Undo option</td>
+<td></td>
+<td>46</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_22_022()'><b>Tc_Location_State_22_022</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Functionality of Undo option</td>
+<td></td>
+<td>71</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_23_023()'><b>Tc_Location_State_23_023</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Functionality of 'No' button</td>
+<td></td>
+<td>56</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_24_024()'><b>Tc_Location_State_24_024</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Functionality of View timelines</td>
+<td></td>
+<td>56</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_State_25_025()'><b>Tc_Location_State_25_025</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Functionality of Search Icon</td>
+<td></td>
+<td>55</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
+<tr>
+<td title='ssms.SSMS_Automation.testCase.AdminModule.Tc_Location_state_03_003()'><b>Tc_Location_state_03_003</b><br>Test class: ssms.SSMS_Automation.testCase.AdminModule<br>Test method: Validation on data type of textbox errorMessge and Validation Message Displayed Successfully</td>
+<td></td>
+<td>39</td>
+<td>ssms.SSMS_Automation.testCase.AdminModule@77caeb3e</td></tr>
 </table><p>
 </body>
 </html>
