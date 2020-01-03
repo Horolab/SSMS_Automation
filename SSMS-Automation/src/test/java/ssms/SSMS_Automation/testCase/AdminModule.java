@@ -12,7 +12,7 @@ import ssms.SSMS_Automation.modules.Login;
 
 /**
  * @author uma.sasmal
- *
+ *test
  */
 public class AdminModule extends Base {
 
