@@ -3,15 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="ssms.SSMS_Automation.testCase.AdminModule">
+      <class name="ssms.SSMS_Automation.testCase.ReceiveModule">
         <methods>
+          <include name="Tc_Receive_016"/>
           <include name="setup"/>
-          <include name="Tc_Location_Area_53_53"/>
           <include name="tearDown"/>
-          <include name="Tc_Location_Area_70_70"/>
-          <include name="Tc_Location_State_18_018"/>
         </methods>
-      </class> <!-- ssms.SSMS_Automation.testCase.AdminModule -->
+      </class> <!-- ssms.SSMS_Automation.testCase.ReceiveModule -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

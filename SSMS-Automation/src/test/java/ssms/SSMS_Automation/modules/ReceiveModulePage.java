@@ -3,6 +3,7 @@ package ssms.SSMS_Automation.modules;
 import org.apache.bcel.generic.Select;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import ssms.SSMS_Automation.Base;
@@ -45,11 +46,14 @@ public class ReceiveModulePage extends Base {
 	public final String gstnNo_xpath="//input[@placeholder='GSTIN No']";
 	public final String altMobileNo_xpath="//input[@placeholder='Alt Mobile No']";
 	public final String birthDate_xpath="//input[@placeholder='Birth Date']";
-	public final String gender_xpath="//*[contains(@class,'mat-select-arrow')]";
+	public final String gender_xpath="//*[text()='Address Type']";
 	//public final String maritalStatus_xpath="//input[@placeholder='Name']";
 	//public final String anniversaryDate_xpath="//input[@placeholder='Name']";
 	//public final String branch_xpath="//input[@placeholder='Name']";
-	//public final String addressType_xpath="//input[@placeholder='Name']";
+	public final String addressType_xpath="//*[text()='Address Type']";
+	public final String home_xpath="//*[text()='HOME']";
+	public final String office_xpath="//*[text()='OFFICE']";
+	public final String billing_xpath="//*[text()='BILLING']";
 	public final String addressLine1_xpath="//input[@placeholder='Address Line 1']";
 	public final String addressLine2_xpath="//input[@placeholder='Address Line 2']";
 	public final String nearestLandMark_xpath="//input[@placeholder='Nearest LandMark']";
@@ -63,6 +67,10 @@ public class ReceiveModulePage extends Base {
 	public final String save_xpath="//span[text()='Save']";
 	public final String cancel_xpath="//span[text()='Cancel']";
 	public final String receiveError_xpath="//*[contains(@class,'mat-error')]";
+	
+	//Add More Address
+	public final String addMoreAddress_xpath="//span[text()='Add More Customer  Address']";
+	
 	
 	//Error messages
 	public final String errorMsgNameMoreThan100Char_xpath="//mat-error[contains(text(),'more than 100')]";
@@ -136,7 +144,7 @@ public class ReceiveModulePage extends Base {
 		
 	}
 	
-	public void addCustomer(String name, String mobile, String email, String gstnNo,String altMobileNo, String dob) {
+	public void addCustomer(String name, String mobile, String email, String gstnNo,String altMobileNo, String dob, String gender) {
 		try {
 			driver.findElement(By.xpath(name_xpath)).clear();
 			driver.findElement(By.xpath(name_xpath)).sendKeys(name);
@@ -156,7 +164,7 @@ public class ReceiveModulePage extends Base {
 			driver.findElement(By.xpath(altMobileNo_xpath)).sendKeys(altMobileNo);
 			driver.findElement(By.xpath(birthDate_xpath)).clear();
 			driver.findElement(By.xpath(birthDate_xpath)).sendKeys(dob);
-			//WebElement dropropDown = driver.findElement(By.xpath(gender_xpath));
+			driver.findElement(By.xpath(gender_xpath)).sendKeys(gender);;
 			driver.findElement(By.xpath(save_xpath)).click();
 			
 			
@@ -307,6 +315,46 @@ public class ReceiveModulePage extends Base {
 				Assert.assertTrue(driver.findElement(By.xpath(errorMsgOnlyNumAllowed_xpath)).isDisplayed(),"Pin Code TextBox Only Numbers Allowed Message is Not Displaying");
 				
 			}catch(Exception e){
+				System.out.println(e);
+				Assert.fail("Fail due to exception "+e.getMessage());
+			}
+			
+		}
+		
+		public void customerAddress(String type, String address, String pincode) {
+			try {
+				//Actions action = new Actions(driver);
+				//WebElement link=driver.findElement(By.xpath(addressType_xpath));
+				//action.doubleClick(link).click();
+				String temp_type=type + "_xpath";
+				driver.findElement(By.xpath(addressType_xpath)).click();
+				//driver.findElement(By.linkText(temp_type)).click();
+				//driver.findElement(By.xpath(addressLine1_xpath)).sendKeys(address);
+				//driver.findElement(By.xpath(pinCode_xpath)).sendKeys(pincode);
+				
+			} catch (Exception e) {
+				System.out.println(e);
+				Assert.fail("Fail due to exception "+e.getMessage());
+			}
+			
+		}
+		
+		public void customerAddMoreAddress(String type) {
+			try {
+				driver.findElement(By.xpath(addMoreAddress_xpath)).click();
+				
+			} catch (Exception e) {
+				System.out.println(e);
+				Assert.fail("Fail due to exception "+e.getMessage());
+			}
+			
+		}
+		
+		public void cancelReceive() {
+			try {
+				driver.findElement(By.xpath(cancel_xpath)).click();
+				
+			} catch (Exception e) {
 				System.out.println(e);
 				Assert.fail("Fail due to exception "+e.getMessage());
 			}
